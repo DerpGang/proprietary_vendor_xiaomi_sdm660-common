@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
+    libQTapGLES \
     libq3dtools_adreno \
     libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
@@ -117,7 +118,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
-    vulkan.adreno \
+    vulkan.sdm660 \
     libC2D2 \
     libCB \
     libOmxAacDec \
@@ -130,7 +131,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Dec \
     libOmxWmaDec \
     libOpenCL \
-    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudioparsers \
+    libbccQTI \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
@@ -149,14 +150,15 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
+    libdisplayconfig.qti \
     libdsutils \
     libfastcrc \
     libfastcvadsp_stub \
     libfastcvopt \
     libfastrpc_utf_stub \
-    libgpudataproducer \
     libgsl \
     libhdmipassthru \
+    libhdr_tm \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
@@ -179,11 +181,17 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
+    libqseed3 \
     libqtigef \
     librs_adreno \
+    librs_adreno_sha1 \
+    libsdm-color \
+    libsdm-diag \
+    libsdmextension \
     libsdsprpc \
     libsoc_helper \
     libsysmon_cdsp_skel \
+    libtinyxml2_1 \
     libvpphvx \
     libvpplibrary \
     libasphere \
@@ -269,7 +277,6 @@ PRODUCT_PACKAGES += \
     libdsi_netctrl \
     libgdtap \
     libgnsspps \
-    libhdr_tm \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -309,7 +316,6 @@ PRODUCT_PACKAGES += \
     libqdma_file_agent \
     libqisl \
     libqrtr \
-    libqseed3 \
     libqsocket \
     libqtikeymaster4 \
     librcc \
@@ -319,10 +325,7 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     librilqmiservices \
     librpmb \
-    libsdm-color \
-    libsdm-diag \
     libsdm-disp-vndapis \
-    libsdmextension \
     libsecureui \
     libsecureui_svcsock \
     libsettings \
@@ -331,7 +334,6 @@ PRODUCT_PACKAGES += \
     libsynergy_loc_api \
     libsystem_health_mon \
     libtime_genoff \
-    libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
     libwms \
@@ -346,7 +348,6 @@ PRODUCT_PACKAGES += \
     qtimutex \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
     vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
